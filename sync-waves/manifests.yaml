@@ -15,6 +15,7 @@ spec:
           command: ["sleep", "5"]
       restartPolicy: Never
 ---
+
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
